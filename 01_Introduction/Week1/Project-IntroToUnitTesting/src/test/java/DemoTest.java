@@ -17,10 +17,4 @@ public class DemoTest {
         boolean expect = true;
         assertEquals(expect, actual);
     }
-
-    @Test
-    public void test2() {
-        assertTrue(3 + 0 == 1 + 2);
-    }
-
 }

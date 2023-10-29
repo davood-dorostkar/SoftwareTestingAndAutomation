@@ -56,3 +56,4 @@ sudo apt install openjdk-8-jre-headless
   - enable java testing
   - select JUnit, it will download junit and add it to project
   - open your test file and click on run icon at top right
+
