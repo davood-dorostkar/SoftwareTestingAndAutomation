@@ -9,7 +9,6 @@
 // Apply the java-library plugin to add support for Java Library
 apply plugin: 'java-library'
 
-
 // Make sure we are using Java 8.
 if(JavaVersion.current() != JavaVersion.VERSION_1_8) 
     throw new GradleException("This project requires Java 8 (Java 1.8), but it's running on "+JavaVersion.current())
@@ -33,8 +32,5 @@ repositories {
 dependencies {
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
-
-	// Deprecated.  Use testImplementation
-//    testCompile 'junit:junit:4.11'
 }
 
